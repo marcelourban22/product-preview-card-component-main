@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+article{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 700px;
+    margin-top: 100px;
+    font-size: medium;
+}
+#per{
+    font-size: medium;
+    color:gray;
+}
+#text1{
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+#text2{
+    font-size: medium;
+    color: gray;
+}
+#preco{
+    font-size: medium;
+    color: gray;
+}
+#desconto{
+    font-size: medium;
+    color: rgb(0, 255, 98);
+}
+#botao{
+    font-size: medium;
+    color: rgb(13, 77, 0);
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    width: 15px;
+    height: 15px;
+}
+figure{
+    width: 100px;
+    height: 100px;
+}
