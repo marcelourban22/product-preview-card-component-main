@@ -3,6 +3,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 article{
     display: flex;
@@ -24,6 +25,12 @@ article{
     font-size: medium;
     color: gray;
 }
+#precos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
 #preco{
     font-size: medium;
     color: gray;
@@ -42,8 +49,11 @@ aside{
     border-radius: 5px;
     width: 15px;
     height: 15px;
+    
 }
 figure{
+    display: flex;
     width: 100px;
     height: 100px;
+    
 }
