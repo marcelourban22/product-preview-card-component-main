@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap");
 p {
   font-family: "Montserrat", sans-serif;
@@ -24,6 +24,7 @@ main {
   width: 604px;
   height: 453px;
   background-color: rgb(255, 255, 255);
+  overflow: hidden;
 }
 
 figure {
@@ -90,6 +91,7 @@ article {
 }
 
 #desconto {
+  font-family: "Fraunces", sans-serif;
   display: flex;
   color: hsl(158, 36%, 29%);
   font-size: 34px;
@@ -130,7 +132,5 @@ figure {
   gap: 10px;
   border-radius: 8px;
   color: white;
-  font-size: 13px img;
-  font-size-height: 15px;
-  font-size-width: 15px;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
