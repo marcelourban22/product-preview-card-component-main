@@ -1,59 +1,148 @@
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
-article{
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+main {
     display: flex;
+    border-radius: 14px;
+    align-self: center;
+    width: 604px;
+    height: 453px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+figure {
+    border-radius: 14px;
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+article {
+    display: inline-flex;
+    width: 50%;
+    height: 100%;
     align-items: flex-start;
+    flex-wrap: wrap;
     flex-direction: column;
-    margin-left: 700px;
-    margin-top: 100px;
-    font-size: medium;
+
+
 }
-#per{
-    font-size: medium;
-    color:gray;
-}
-#text1{
-    font-size: medium;
-    color: rgb(0, 0, 0);
-}
-#text2{
-    font-size: medium;
+
+#per {
+    margin-left: 34px;
     color: gray;
+    font-size: 16px;
+    margin-top: 29px;
 }
-#precos{
+
+#text1 {
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 33px;
+    margin-top: 18px;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+#text2 {
+    display: flex;
+    color: gray;
+    margin-left: 33px;
+    margin-top: 19px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#texts {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#precos {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    margin-top: 21px;
 }
-#preco{
-    font-size: medium;
-    color: gray;
-}
-#desconto{
-    font-size: medium;
-    color: rgb(0, 255, 98);
-}
-#botao{
-    font-size: medium;
-    color: rgb(13, 77, 0);
-}
-aside{
+
+#preco {
     display: flex;
     flex-direction: row;
-    border-radius: 5px;
-    width: 15px;
-    height: 15px;
-    
+    align-items: center;
+    margin-left: 19px;
+    font-size: 13px;
+    color: gray;
+    text-decoration: line-through;
 }
-figure{
+
+#desconto {
+    display: flex;
+    color: hsl(158, 36%, 29%);
+    font-size: 34px;
+    margin-left: 33px;
+}
+
+
+figure {
     display: flex;
     width: 100px;
     height: 100px;
-    
+    border-radius: 14px;
+
+}
+
+figure {
+    width: 50%;
+    height: 100%;
+}
+
+#backgound {
+    display: flex;
+    background-color: hsl(30, 38%, 92%);
+    width: 1440px;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+#botao {
+    margin-left: 31.5px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 236px;
+    height: 48px;
+    background-color: #3D8168;
+    gap: 10px;
+    border-radius: 8px;
+    color: white;
+
+    font-size: 13px img {
+        height: 15px;
+        width: 15px;
+
+
+    }
 }
